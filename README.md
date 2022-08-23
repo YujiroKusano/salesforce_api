@@ -1,6 +1,6 @@
 
-# WSCの作成
-> 参考サイト：(Java 開発者環境の設定)[https://developer.salesforce.com/docs/atlas.ja-jp.salesforce_developer_environment_tipsheet.meta/salesforce_developer_environment_tipsheet/salesforce_developer_environment_overview.htm]
+# Partner WSDLを使用したプロジェクトの作成方法
+> 参考サイト：[Java 開発者環境の設定](https://developer.salesforce.com/docs/atlas.ja-jp.salesforce_developer_environment_tipsheet.meta/salesforce_developer_environment_tipsheet/salesforce_developer_environment_overview.htm)
 ## 環境
  OS: macOS Monterey ver12.5.1
 
@@ -41,7 +41,7 @@
         -DarchetypeVersion=1.0
     ```
 ## ライブラリ(jarファイル)のダウンロード
-1. ```libs/```フォルダを作成
+1. ```libs/```フォルダをプロジェクト内部に作成
     ```bath
     $ mkdir libs
     ```
