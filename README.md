@@ -1,8 +1,28 @@
 
 # WSCの作成
+> 参考サイト：(Java 開発者環境の設定)[https://developer.salesforce.com/docs/atlas.ja-jp.salesforce_developer_environment_tipsheet.meta/salesforce_developer_environment_tipsheet/salesforce_developer_environment_overview.htm]
+## 環境
+ OS: macOS Monterey ver12.5.1
+
 ## 前提
-1. Mavenがダウンロードされていること
-2. 以下のコマンドが起動すること
+1. javaがダウンロードされていること
+    > [Javaダウンロード](https://www.oracle.com/java/technologies/downloads/)
+2. Mavenがダウンロードされていること<br>
+- インストール方法
+    - Windows:  [ダウンロードサイト](https://maven.apache.org/)<br>
+    - macOS:    コマンド
+        ```bath
+        $ brew install maven
+        ```
+        ```bath
+        $ vi ~/.zprofile
+
+        # M2_HOMEを作成
+        export M2_HOME=/usr/local/Cellar/maven/3.8.1/libexec/<br>
+        # PATHの先頭に追加
+        export PATH=$M2_HOME/bin:$PATH
+        ```
+3. 以下のコマンドが起動すること
     ```bath
     $ mvn -v
     Apache Maven 3.8.6 (xxxxxxxxxxxxxxxxxxxxxxxxxxxxx)
