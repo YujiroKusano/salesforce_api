@@ -11,7 +11,7 @@
     Default locale: ja_JP, platform encoding: UTF-8
     OS name: "mac os x", version: "12.5.1", arch: "x86_64", family: "mac"
     ```
-3. 
+
 ## プロジェクトの作成
 1. 以下のコマンドにてプロジェクトを作成
     ```bath
