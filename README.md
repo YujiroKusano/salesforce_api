@@ -66,7 +66,7 @@
     ```bath
     mvn install:install-file -Dfile=libs/partner.jar -DgroupId=com.sforce.soap.partner -DartifactId=partner -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
     ```
-2. 以下をpomファイルの```<dependencies>に追記
+2. 以下をpomファイルの```<dependencies>```に追記
     ```pom.xml
     <dependency>
       <groupId>com.sforce.soap.partner</groupId>
